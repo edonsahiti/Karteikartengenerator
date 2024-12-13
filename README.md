@@ -4,14 +4,14 @@ Mit diesem Karteikartengenerator kannst du effektiv und spielerisch lernen. Die 
  
 Die 3 Main-Features
   1. Fragen hinzufügen
-      -Lade eine CSV-Datei hoch (Spalte 1: Frage, Spalte 2: Antwort, Spalte 3: Kategorie).
-      -Alternativ kannst du Fragen manuell eintragen.
-  2. Lernerfolg verfolgen
-      -Sieh, wie viele Fragen du hast, wie viele richtig/falsch beantwortet wurden – auch pro Kategorie.
-      -Ein Fortschrittsbalken zeigt deinen Lernstatus.
-  3. Effektives Üben
-      -Falsch beantwortete Fragen werden so lange wiederholt, bis sie richtig sind.
-      -Richtig beantwortete Fragen verschwinden aus dem Fragenpool.
+     -Lade eine CSV-Datei hoch (Spalte 1: Frage, Spalte 2: Antwort, Spalte 3: Kategorie).
+     -Alternativ kannst du Fragen manuell eintragen.
+  3. Lernerfolg verfolgen
+     -Sieh, wie viele Fragen du hast, wie viele richtig/falsch beantwortet wurden – auch pro Kategorie.
+     -Ein Fortschrittsbalken zeigt deinen Lernstatus.
+  5. Effektives Üben
+     -Falsch beantwortete Fragen werden so lange wiederholt, bis sie richtig sind.
+     -Richtig beantwortete Fragen verschwinden aus dem Fragenpool.
  
 How to Karteikartengenerator!
 Um die App zu bedienen, startest du im Reiter „Erstellen“. Hier kannst du deine Fragen hinzufügen. Entweder lädst du eine CSV-Datei hoch, die das Format Frage, Antwort und Kategorie hat, oder du trägst die Fragen, Antworten und Kategorien manuell ein und klickst auf „Karte erstellen“. Deine Eingaben werden sofort übernommen.
