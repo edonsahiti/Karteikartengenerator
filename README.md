@@ -1,5 +1,4 @@
 # Karteikartengenerator
-Ein Tool zum Erstellen und Verwalten von Karteikarten für effizientes Lernen
  
 Mit diesem Karteikartengenerator kannst du effektiv und spielerisch lernen. Die App ermöglicht dir, Fragen und Antworten hinzuzufügen, deinen Lernerfolg zu verfolgen und durch eine intelligente Abfrage optimal zu üben. Sie ist perfekt, um Wissen in deinem Tempo aufzubauen – ob für die Schule, das Studium oder die Arbeit.
  
