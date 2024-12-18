@@ -1,6 +1,4 @@
 •  Korrektheit: Funktioniert der Code wie erwartet? Werden alle Anforderungen erfüllt? 
-
-
  
 •  Lesbarkeit: Ist der Code gut lesbar? Ist die Code-Struktur konsistent und leicht
 verständlich? 
