@@ -5,7 +5,7 @@ Code funktioniert gut, jedoch sind ein paar Sachen undurchsichtig. Zum Beispiel 
 •  Lesbarkeit: Ist der Code gut lesbar? Ist die Code-Struktur konsistent und leicht
 verständlich? 
 
-Die Kommentare machen den Code grundsätzlich gut lesbar. Es folgt einer nachvollziehbaren Struktur (Zuerst Packages, dann Funktionen und schließlich Hauptfenster/Tabs).
+Die Kommentare machen den Code grundsätzlich gut lesbar. Es folgt einer nachvollziehbaren Struktur (Zuerst Packages, dann Funktionen und schließlich Hauptfenster/Tabs). Die Schrift der Antworten ist nicht so gut lesbar.
  
 •  Effizienz: Ist der Code effizient? Gibt es ineffiziente Algorithmen oder Operationen,
 die verbessert werden können?
