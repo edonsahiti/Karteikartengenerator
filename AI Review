@@ -1,0 +1,34 @@
+AI Review – Karteikartengenator
+
+Basierend auf dem neuen Prompt sind wir zu folgenden Erkenntnissen gelangt:
+1.	Funktionalität: Funktioniert der generierte Code? Stimmt die Ausgabe mit der erwarteten Ausgabe überein?
+Der generierte Code für die Flashcard-App funktioniert erwartungsgemäß. Die grundlegenden Funktionen wie das Hinzufügen von Karten, das Importieren aus einer CSV-Datei, und der Lernmodus scheinen implementiert zu sein. Im Vergleich zu unserem ursprünglichen Code wurde jedoch die Funktionalität vereinfacht, insbesondere durch den Wegfall von Kategorien und Statistiken.
+
+2.	Datentypen und Variablennamen: Verwendet der generierte Code die richtigen Datentypen und sind die Variablennamen sinnvoll gewählt?
+Datentypen: Es wurden geeignete Datentypen wie Listen und Dictionaries verwendet. Diese sind passend für die Speicherung von Karten und Fortschrittsstatistiken.  
+Variablennamen: Die Namen sind größtenteils sinnvoll gewählt, wie zB „cards“, „progress“, und „current_card“. Allerdings könnten einige Variablennamen, wie „filtered_cards“, spezifischer sein, z. B. `unlearned_cards`, um die Funktion besser zu beschreiben. Jedoch könnten die spezifischer werden, wenn man dies im Prompt expliziter verfasst.
+
+3.	Übersichtlichkeit und Struktur: Ist der generierte Code übersichtlich und gut strukturiert? Ist er leicht zu lesen und zu verstehen?
+Der Code ist klar strukturiert und in Klassen organisiert, was ihn modular und leicht verständlich macht. Methoden sind kurz und fokussiert. Allerdings fehlen Kommentare, die komplexere Funktionen, wie die Filterung/Gruppierung der Karten im Lernmodus, erklären.
+
+4.	Effizienz: Ist der generierte Code effizient? Gibt es redundante oder ineffiziente Operationen? Kann der Code optimiert werden?
+Der generierte Code ist effizient aufgebaut als unser ursprünglicher Code, da bei dem neuen Code die Gewichtung bei der Auswahl der Karten ausgelassen wurde. Die Vereinfachung reduziert auf der einen Seite die Komplexität, jedoch verschlechtert auf der anderen Seite eventuell die Nutzererfahrung da gewisse Funktionen nicht berücksichtigt werden.
+
+5.	Vergleich mit menschlich geschriebenem Code: Wie unterscheidet sich der generierte Code von eurem Code, der die gleiche Aufgabe erfüllt? 
+Der generierte Code ist minimalistisch gestaltet und konzentriert sich im Wesentlichen auf die Kernfunktionen im Vergleich zu unserem ursprünglichen Code. Hier eine Auflistung welche Funktionen im Prompt nicht existieren:
+-Fortgeschrittene Statistiken: detaillierte Fortschrittsverfolgung und Kategorieanalyse
+-Benutzerführung: Funktionen wie das Anzeigen motivierender Sprüche und die Fortschrittsanzeige in Form von Balkendiagrammen wurden weggelassen.  
+-Flexibilität: Die Möglichkeit, Kategorien zu verwalten oder die App durch `customtkinter` zu gestalten, wurde im generierten Code nicht berücksichtigt.
+
+6.	Methoden der Code-Generierung: Welchen Input hast du zur Code-Generierung benutzt? Bekommst du ein anderes Ergebnis, wenn du die Anfrage anders formulierst?
+Der generierte Code basiert auf einer allgemeingültigen Beschreibung. Hätten wir den Prompt spezifiziert, um bestimmte Funktionen einzubauen, hätte ChatGPT dies möglicherweise gemacht. Eine stärkere Anpassung des Prompts könnte also zu anderen Ergebnissen führen.
+
+7.	Dokumentation: Ist der generierte Code gut dokumentiert? Gibt es Kommentare, die den Code erklären und seine Funktionsweise beschreiben? 
+Es fehlen Kommentare, die die Logik bzw. Funktionen näher erklären. Eine einfache Dokumentation könnte z. B. Methodenbeschreibungen und Erklärungen der Datenstruktur umfassen. Dies würde die Wartbarkeit verbessern. Eventuell könne auch angemerkt werden, warum eine bestimmte Funktion angewendet wird, und welchen Zweck sie erfüllt.
+
+Conclusio:
+Grundsätzlich kann KI helfen, grundlegende Funktionen schnell zu implementieren oder neue, komplexe Sachverhalte innerhalb von Minuten zu klären. Nichtsdestotrotz zeigen sich
+gewisse Einschränkungen bei der Bewältigung komplexerer Anforderungen. Darüber hinaus bleibt die menschliche Kreativität ein wesentliches Asset, dem KI in bestimmten Bereichen
+nicht gleichkommt. Dennoch erweist sich KI in anderen Situationen als wahrer Glücksbringer. Ihre Rolle ist unumstritten, da sie nicht nur den täglichen menschlichen Bedarf unterstützt,
+sondern auch eine bedeutende Funktion in der Arbeits- und Ausbildungswelt einnimmt. Obwohl KI in vielerlei Hinsicht helfen kann, sollten wir uns nicht allzu sehr an ihre reibungslose
+und zügige Unterstützung gewöhnen. 
